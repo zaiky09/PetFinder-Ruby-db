@@ -1,6 +1,5 @@
 class User < ActiveRecord::Base 
-    has_many :
-
+  
     include BCrypt
     
     #retrieve password from hash
