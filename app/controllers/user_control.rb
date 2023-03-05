@@ -32,10 +32,10 @@ class UserController < AppController
           email: user_data.email
         })
       else
-        json_response(code: 420, data: { message: "Your email/password combination is not correct" })
+        json_response(code: 422, data: { message: "Your email/password combination is not correct" })
       end
     rescue => e
-      error_response(420, e)
+      error_response(422, e)
     end
   end
      

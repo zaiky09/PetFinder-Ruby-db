@@ -1,5 +1,7 @@
 class User < ActiveRecord::Base 
+    
     has_many :pets
+
     include BCrypt
     
     #retrieve password from hash

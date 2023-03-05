@@ -1,3 +1,4 @@
 require_relative './config/environment'
 
-run UseController
+use PetController
+run UserController
