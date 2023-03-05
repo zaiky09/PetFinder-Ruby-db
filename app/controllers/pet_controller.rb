@@ -3,7 +3,7 @@ class PetController < AppController
     set :views, './app/views'
 
     # @method: Add a new pet to the DB
-    post '/todos/create' do
+    post '/pets/create' do
         begin
             pet = Pet.create( self.data(create: true) )
             json_response(code: 201, data: todo)
@@ -15,7 +15,7 @@ class PetController < AppController
     # @method: Display all pets
     get '/pet' do
         pet = Pet.all
-        json_response(data: pets)
+        json_response(data: pet)
     end
 
     # @view: Renders an erb file which shows all pets
@@ -28,7 +28,7 @@ class PetController < AppController
           }
         }
         @i = 1
-        erb_response :pets
+        erb_response :pet
     end
 
     # @method: Update existing pets according to :id
