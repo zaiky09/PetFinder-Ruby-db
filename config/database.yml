@@ -1,0 +1,11 @@
+default: &default
+  adapter: sqlite3
+  timeout: 5000
+
+development: 
+  <<: *default  
+  database: db/petfinder-dev.db
+
+production:
+  <<: *default
+  database: db/petfinder-prod.sqlite3
