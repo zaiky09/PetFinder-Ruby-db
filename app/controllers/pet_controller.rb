@@ -20,16 +20,16 @@ class PetController < AppController
 
     # @view: Renders an erb file which shows all pets
     # erb has content_type because we want to override the default set above
-    get '/' do
-        @pets = Pet.all.map { |pet|
-          {
-            pet: pet,
-            badge: pet_status_badge(pet.status)
-          }
-        }
-        @i = 1
-        erb_response :pet
-    end
+    # get '/' do
+    #     @pets = Pet.all.map { |pet|
+    #       {
+    #         pet: pet,
+    #         badge: pet_status_badge(pet.status)
+    #       }
+    #     }
+    #     @i = 1
+    #     erb_response :pet
+    # end
 
     # @method: Update existing pets according to :id
     put '/pets/update/:id' do
