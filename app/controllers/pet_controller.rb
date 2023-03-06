@@ -6,7 +6,7 @@ class PetController < AppController
     post '/pets/create' do
         begin
             pet = Pet.create( self.data(create: true) )
-            json_response(code: 201, data: todo)
+            json_response(code: 201, data: pet)
         rescue => e
             json_response(code: 422, data: { error: e.message })
         end

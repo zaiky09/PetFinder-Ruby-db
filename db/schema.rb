@@ -15,7 +15,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_05_102757) do
     t.string "name", null: false
     t.string "breed", null: false
     t.string "image_src"
-    t.string "description"
+    t.string "character"
     t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
