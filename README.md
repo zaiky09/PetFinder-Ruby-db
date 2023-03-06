@@ -27,17 +27,17 @@ Bootstrap v5.3.0
 ## Setup
 You can setup this repository by following this manual
 
-### Clone the repository
+#### Clone the repository
 git clone https://github.com/otsembo/my-todos-sinatra.git
-### Ensure the ruby gems are setup in your machine
+#### Ensure the ruby gems are setup in your machine
 bundle install
-### Perform any pending database migrations
+#### Perform any pending database migrations
 rake db:migrate
-### Run the application
+#### Run the application
 rake start
-### Open the application from your browser
+#### Open the application from your browser
 http://localhost:9292
-### Application
+#### Application
 This application is a simple web API that allows users to:
 
 Register a new account.
