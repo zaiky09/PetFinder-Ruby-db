@@ -54,7 +54,7 @@ In order to use the application, the user must be logged in.
 ## LICENSE
 This repository is distributed under the MIT License
 
-Author
+## Author
 This repository is maintained by:
 
 Zamil Sheikh
