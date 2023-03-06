@@ -28,7 +28,7 @@ Bootstrap v5.3.0
 You can setup this repository by following this manual
 
 #### Clone the repository
-git clone https://github.com/otsembo/my-todos-sinatra.git
+git clone https://github.com/zaiky09/PetFinder-Ruby-db.git
 #### Ensure the ruby gems are setup in your machine
 bundle install
 #### Perform any pending database migrations
