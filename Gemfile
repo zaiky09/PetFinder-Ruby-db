@@ -1,6 +1,6 @@
 source "https://rubygems.org/"
 
-gem ruby '2.7.4'
+ruby '2.7.4'
 
 gem 'sinatra', '~> 3.0', '>= 3.0.5'
 
