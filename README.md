@@ -28,15 +28,15 @@ Bootstrap v5.3.0
 You can setup this repository by following this manual
 
 #### Clone the repository
-git clone https://github.com/zaiky09/PetFinder-Ruby-db.git
+    git clone https://github.com/zaiky09/PetFinder-Ruby-db.git
 #### Ensure the ruby gems are setup in your machine
-bundle install
+    bundle install
 #### Perform any pending database migrations
-rake db:migrate
+    rake db:migrate
 #### Run the application
-rake start
+    rake start
 #### Open the application from your browser
-http://localhost:9292
+    pet-finder-two.vercel.app
 #### Application
 This application is a simple web API that allows users to:
 
