@@ -36,7 +36,7 @@ You can setup this repository by following this manual
 #### Run the application
     rake start
 #### Open the application from your browser
-    pet-finder-two.vercel.app
+    pet-finder-one.vercel.app
 #### Application
 This application is a simple web API that allows users to:
 
